@@ -7,7 +7,7 @@ from test_task.logic.task_logic import count_even_numbers, count_prime_numbers, 
 def main():
     parser = argparse.ArgumentParser(description='Select the task you want to complete')
     parser.add_argument('path_to_xlsx', help='put path to your file here')
-    parser.add_argument('task', choices=['num1', 'num2', 'num3', 'date1', 'date2', 'date3'])
+    parser.add_argument('task', choices=['num1', 'num2', 'num3', 'date1', 'date2', 'date3'], help='choose column here')
     args = parser.parse_args()
     if args.task == 'num1':
         print(count_even_numbers(args.path_to_xlsx))
