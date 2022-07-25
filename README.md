@@ -9,7 +9,7 @@ Unparsed: Thu Jan 26 18:50:42 2023отметьте в решении, если �
 В столбце date2 138 вторников. 
 В столбце date3 43 полследних вторников месяца. 
 
-Инфо по командам cli: test_task -h (make help) 
+Инфо по командам cli: test-task -h (make help) 
 
 [![asciicast](https://asciinema.org/a/I3hd3fuv0nSZApXExOFzUFmgr.svg)](https://asciinema.org/a/I3hd3fuv0nSZApXExOFzUFmgr)
 -Пример работы команд
