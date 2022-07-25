@@ -2,3 +2,4 @@
 /dist
 /test_task/__pycache__
 /test_task/logic/__pycache__
+/test_task/scripts/__pycache__

@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "ruvents_test_task"
+name = "ruvents-test-task"
 version = "0.1.0"
 description = ""
 authors = ["Andrei Feoktistov <feoae@yandex.ru>"]
@@ -16,7 +16,7 @@ pandas = "^1.4.3"
 pytest = "^5.2"
 
 [tool.poetry.scripts]
-test_task = "test_task.scripts.my_task:main"
+test-task = "test_task.scripts.my_task:main"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]

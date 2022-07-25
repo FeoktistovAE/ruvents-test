@@ -1,3 +1,5 @@
+### Установка пакета:
+make setup
 ### Ответы: 
 В столбце num1 507 четных чисел. 
 В столбце num2 168 простых чисел. 
@@ -9,5 +11,5 @@ Unparsed: Thu Jan 26 18:50:42 2023отметьте в решении, если �
 
 Инфо по командам cli: test_task -h (make help) 
 
-[![asciicast](https://asciinema.org/a/Tt8KXm8CvBgTolfKdreq1c9t4.svg)](https://asciinema.org/a/Tt8KXm8CvBgTolfKdreq1c9t4)
+[![asciicast](https://asciinema.org/a/I3hd3fuv0nSZApXExOFzUFmgr.svg)](https://asciinema.org/a/I3hd3fuv0nSZApXExOFzUFmgr)
 -Пример работы команд
