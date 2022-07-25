@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "ruvents_test_task"
+version = "0.1.0"
+description = ""
+authors = ["Andrei Feoktistov <feoae@yandex.ru>"]
+packages = [
+  { include = "test_task" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+openpyxl = "^3.0.10"
+pandas = "^1.4.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[tool.poetry.scripts]
+test_task = "test_task.scripts.my_task:main"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
